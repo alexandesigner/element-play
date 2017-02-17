@@ -1,0 +1,34 @@
+{
+  "name": "element-play",
+  "version": "0.0.1-alpha.1",
+  "description": "A minimalistic project for demonstrating components of Element UI",
+  "private": false,
+  "keywords": [],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color",
+    "play": "vue-play start",
+    "play:build": "vue-play build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandesigner/element-play.git"
+  },
+  "homepage": "https://github.com/alexandesigner/element-play#readme",
+  "bugs": {
+    "url": "https://github.com/alexandesigner/element-play/issues"
+  },
+  "author": "Allan Alexandre",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "*",
+    "element-ui": "^1.1.6",
+    "vue": "^2.0.1"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*",
+    "vue-play": "^3.0.1",
+    "vue-play-cli": "^1.1.1"
+  }
+}
