@@ -4,9 +4,6 @@
     <div class="inner-content">
       <h1 class="logo">
         <img src="/assets/images/logo.svg" alt="Element UI" width="320" />
-        <div class="star-github">
-          <a class="github-button" href="https://github.com/alexandesigner/element-play" data-style="mega" data-count-href="/alexandesigner/element-play/stargazers" data-count-api="/repos/alexandesigner/element-play#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star alexandesigner/element-play on GitHub">Star</a>
-        </div>
       </h1>
       <p class="lead">🍭 <span>A minimalistic project for demonstrating components of Element UI</span></p>
       <my-button>View Demo</my-button>
@@ -41,9 +38,10 @@ body {
   padding:0;
 }
 .stars {
-  position:absolute;
-  left:0;
-  top:20px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100%;
 }
 .star-github {
   position: absolute;

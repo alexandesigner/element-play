@@ -13,5 +13,11 @@ dist:
 deploy:
 	@npm run deploy
 
+play-start:
+	vue-play start
+
+play-build:
+	vue-play build
+
 test:
 	@npm test
