@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "cooking-vue2": "*",
+    "element-theme-default": "^1.2.5",
     "vue-play": "^3.0.1",
     "vue-play-cli": "^1.1.1"
   }
