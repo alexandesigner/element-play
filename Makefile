@@ -3,6 +3,8 @@
 install:
 	npm i cooking-cli -g
 	@npm i
+	git submodule init
+	git submodule update
 
 dev:
 	@npm run dev
@@ -13,11 +15,11 @@ dist:
 deploy:
 	@npm run deploy
 
-play-start:
-	vue-play start
+start:
+	@npm run play
 
-play-build:
-	vue-play build
+build:
+	@npm run play:build
 
 test:
 	@npm test
