@@ -5,5 +5,7 @@
 build
 dist
 node_modules
+dist-play
 .gitkeep
 converage
+theme
